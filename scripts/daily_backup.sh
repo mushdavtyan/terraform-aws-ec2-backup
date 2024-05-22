@@ -21,7 +21,7 @@ BACKUP_DIR="/home/ec2-user/backup"
 SOURCE_DIR=$1
 DATE=$(date +%Y-%m-%d)
 BACKUP_FILE="$BACKUP_DIR/backup-$DATE.tar.gz"
-S3_BUCKET=fxctest-my-backup-bucket
+S3_BUCKET=fxc-my-backup-bucket
 
 # Create backup directory if it doesn't exist
 mkdir -p $BACKUP_DIR
