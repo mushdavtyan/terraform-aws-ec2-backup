@@ -72,7 +72,7 @@ To deploy the EC2 instance, run the initial_setup.sh script:
 ```bash
 ./initial_setup.sh
 ```
-After deployment, you will see the output SSH command to log in to the EC2 instance.
+After deployment, you will see the output SSH command to log in to the EC2 instance and the S3 path
 
 ### Usage <a name="usage"></a>
 The main initial_setup.sh and teardown.sh scripts can be run (assuming the env.rc file has been properly configured) to create and remove the resources. Before running the scripts, make sure to duplicate the env.rc.tmpl file and rename it to env.rc, then input the necessary values.
