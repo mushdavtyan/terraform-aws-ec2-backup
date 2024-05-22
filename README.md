@@ -74,6 +74,9 @@ To deploy the EC2 instance, run the initial_setup.sh script:
 ```
 After deployment, you will see the output SSH command to log in to the EC2 instance and the S3 path
 
+<img width="728" alt="image" src="https://github.com/mushdavtyan/terraform-aws-ec2-backup/assets/33778285/2c420477-4f28-4ff9-874c-55bdc3a0ebf3">
+
+
 ### Usage <a name="usage"></a>
 The main initial_setup.sh and teardown.sh scripts can be run (assuming the env.rc file has been properly configured) to create and remove the resources. Before running the scripts, make sure to duplicate the env.rc.tmpl file and rename it to env.rc, then input the necessary values.
 
